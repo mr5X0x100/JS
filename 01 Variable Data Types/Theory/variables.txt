@@ -1,0 +1,76 @@
+-> console.log is used to log (print) a msg to the console.
+    console.log("Hello World");
+
+-> connecting JS file to HTML file 
+    -> <script src ="url">  </script>
+
+------------------------------------------------------------------------------
+
+@-> Dynamically Typed language  don't have to have a specify the data type
+
+------------------------------------------------------------------------------
+# Variables in JS
+
+-> Variables are containers to store data.
+-> String, number, true/false, null, undefined
+-> JS is dynamically Typed language , don't have to specify datatype
+
+    -># Variable Rule's
+
+        -> Variable names are case sensitive ; "a" & "A" are different.
+        -> Only letter's, underscore(_) or $ should be 1st character.
+        -> Reserved words cannot be Variable names.
+ 
+ ----------------------------------------------------------------------
+ # let, const, var
+ 
+    var: Variable can be re-declared & updated. A global scope Variable.
+
+    let: Variable cannot be re-declared but can be updated. A block scope Variable.
+
+    const: Variable cannot be re-declared or updated. A block scope Variable.
+
+------------------------------------------------------------------------------    
+# DataTypes in JS
+  1) Primitive (7)
+        -> number
+        -> String
+        -> boolean
+        -> undefined
+        -> null
+        -> BigInt
+        -> Symbol
+  
+  2) non-Primitive
+        -> objects ( collection of values )
+        -> Arrays
+        -> Functions
+           {
+            eg:
+                const student =
+                {
+                    fullName:"xyz",
+                    age:20,
+                    cgpa:8.2,
+                    isPass:true
+                };
+           }
+
+          -> how to access
+            -> 2 ways 
+            1) student["fullName"]
+            2) student.fullName  
+================================================================================================            
+--------------------------------------------------------------------------------
+
+Que 1: Creat a const object called Product to store info shown in the picture
+
+---------------------------------------------------------------------------------
+
+@-> const object --> key 
+
+---------------------------------------------------------------------------------
+
+Que 2: Creat a const object called "profile" to store info shows in picture
+
+-------------------------------------------------------------------------

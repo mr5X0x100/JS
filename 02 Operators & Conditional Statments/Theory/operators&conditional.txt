@@ -1,0 +1,102 @@
+# comments in JS
+
+  -> part of code which is not executed
+      1) // -> singel line comment makes code readable
+      2) /* */ -> multiline comment 
+--------------------------------------------------------------------
+# Operators in JS
+    -> used ti perform some operation in data
+
+    --> 1) arithmetic Operators,
+        2) assignment Operators, 
+        3) camparison Operators,
+        4) logical Operators,
+        5) unary Operators     
+
+  1) arithmetic Operators
+    ->  +, -, *, /
+    -> modulus ---> %
+    -> increment ---> a++/++a
+    -> decrement ---> a--/--a
+        -> post and pre 
+        1st use then | 1st add/sub
+        add/sub      | then use
+
+  2) assignment Operators
+    -> =, +=, -=, *=, %=, **=
+
+  3) camparison Operators
+    1) equal to                  ==
+    2) not equal to              !=
+    3) equal to & types          ===
+    4) not equal to & types      !==
+  
+  4) logical Operators
+                                *can only be(true,false)
+    1) logical AND      &&
+    2) logical OR       ||
+    3) logical NOT      !
+
+    &  ---> bit wise 
+    && ---> logical AND
+    |  ---> bitwise
+    || ---> logical OR
+
+ =====================================================================================================================
+
+# Conditional Statements 
+
+  -> to implement some Condition in the code 
+
+  1) if Statement
+      
+      let color;
+        if( mode === "dark-mode"){
+          color = "black";
+        }
+
+
+  2) if-else Statement
+
+      let color;
+        if(mode === "dark-mode"){
+          color = "black";
+        } else {
+          color = "white"; 
+        }
+
+
+  3) else-if Statement      
+
+      if ( age < 19 ) {
+          consloe.log("junior");
+      }else if {
+          consloe.log ("senior");
+      } else {
+          consloe.log("middle");
+      }
+   
+  4) Ternary Operators
+
+    -> Condition ? true output:false output
+      --> eg:( age>18 ? "adult":"not adult"; )
+
+@-> study about switch
+
+ 
+=============================================================================================
+Que 1: Get users to input a number using promt("Enter number : ") , check if the number is a multiple of 5 or not .
+  --> let number = promt("Enter number");
+          if ( number%5 === 0 ){
+            consloe.log("number is multiple of 5 ");
+          }else{
+            consloe.log(number, is not multiple of 5);
+          }
+======================================================================================================================
+Que 2: write a code which can give grades to students according to their scores:
+  90-100,A
+  70-89,B
+  60-69,C
+  50-59,D
+  0-49,F
+===============================================================================================================================

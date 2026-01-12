@@ -1,0 +1,96 @@
+# loops in JS
+    -> loops are used to execute a piece of code again and again
+
+    (1) For loops
+    (2) Infinite loops 
+    (3) while loops
+    (4) do-while loops
+    (5) For-of loops
+    (6) For-in loops
+
+
+
+(1) For loops    
+=>   for (initiaze; stopping condition; updation){
+        console.log("apna college");
+    }
+
+    for ( let i=1; i<=5; i++ ){
+
+        console.log("apna college");
+    
+    }
+@-> here i is bllock scoped
+
+
+
+(2) Infinite loops  
+    -> A loop that never ends 
+
+
+
+(3) while loops
+
+=>   while(condition){
+          code 
+     }
+
+
+(4) do-while loops
+
+=>      do{
+            // code 
+        }while(i<=10);//condition to stop
+
+
+(5) For-of loop
+
+=> for(let var of strVar){
+        //do some work
+    }
+
+    eg:{
+        let str ="ApnaCollge";
+
+        for(let i of str){
+            console.log("i =",i);
+        }
+    }
+
+@-> To iterate some specific datatypes [ string and arrays ]
+
+(6) For-in loops
+
+=>  for( let key in ObjVar ){
+        //do some work
+    }
+
+    eg:{
+
+        let student ={
+            name:"xyz",
+            age:20,
+            cgpa:7.1,
+            isPass:true
+        };
+
+        for ( let Key in student ){
+            console.log("Key",Key,"value =",student[key];)
+        }
+    }
+@->Object "key" iterating 
+
+====================================================================================
+Que 1: Print all even number from 0 to 100
+ for( let i=0; i<=100; i++){
+        if(i%2 === 0){
+            console.log(i);
+        }
+    }
+============================================================================================   
+Que 2: creat a game where you start with any random game number.
+       ask the user to keep guessing the game number until the 
+       user enter correct value
+
+=>  
+let gameNum = promt ("Guess the number")
